@@ -1,0 +1,28 @@
+{
+  "name": "safe-get",
+  "version": "1.0.0",
+  "description": "Simple Parcel Sandbox",
+  "main": "lib/safe-get.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "build": "microbundle -o lib",
+    "dev": "microbundle watch"
+  },
+  "umd:main": "lib/safe-get.umd.js",
+  "module": "lib/safe-get.m.js",
+  "source": "src/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "buble": "^0.19.3",
+    "buble-jest": "^1.0.1",
+    "jest": "^23.4.2",
+    "microbundle": "^0.6.0"
+  },
+  "jest": {
+    "testURL": "http://localhost/",
+    "transform": {
+      "^.+\\.jsx?$": "buble-jest"
+    }
+  }
+}
