@@ -1,6 +1,6 @@
 {
   "name": "@eatsjobs/safe-get",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Simple function to get nested object values",
   "main": "lib/safe-get.js",
   "scripts": {
@@ -34,8 +34,8 @@
       "url": "https://twitter.com/p_mangialavori"
     }
   ],
-  "repository" :
-  { "type" : "git"
-  , "url" : "https://github.com/eatsjobs/safe-get"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eatsjobs/safe-get"
   }
 }
