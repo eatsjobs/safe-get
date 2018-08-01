@@ -26,5 +26,12 @@
     "transform": {
       "^.+\\.jsx?$": "buble-jest"
     }
-  }
+  },
+  "contributors": [
+    {
+      "name": "Pasquale Mangialavori", 
+      "email": "pasquale.mangialavori@gmail.com",
+      "url": "https://twitter.com/p_mangialavori"
+    }
+  ]
 }

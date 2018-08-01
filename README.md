@@ -1,6 +1,25 @@
 ### safe-get
 
-Simple function to get nested value object
+Simple function to get nested object values
+The module is shipped as 
+- ES module
+- UMD Bundle
+- CJS Bundle
+
+```
+npm install @eatsjobs/safe-get --save
+// OR
+yarn add @eatsjobs/safe-get
+
+// in code you can require it
+import safeGet from '@eatsjobs/safe-get'
+const User = { name: 'John', { address: { zip: '0000' } } }
+
+const zipCode = safeGet(User, [ 'address', 'zip' ], 'myDefaultValue');
+
+// or in 2000 old fashion way
+<script src="https://unpkg.com/@eatsjobs/safe-get@1.1.0/lib/safe-get.umd.js"></script>
+```
 
 ```
 /**
@@ -14,5 +33,4 @@ Simple function to get nested value object
  * @param {any} [defaultReturn=null]
  * @returns {any|null} returns any value for that key or null if the key is undefined
  */
-
 ```
