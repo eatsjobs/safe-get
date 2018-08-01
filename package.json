@@ -33,5 +33,9 @@
       "email": "pasquale.mangialavori@gmail.com",
       "url": "https://twitter.com/p_mangialavori"
     }
-  ]
+  ],
+  "repository" :
+  { "type" : "git"
+  , "url" : "https://github.com/eatsjobs/safe-get"
+  }
 }
