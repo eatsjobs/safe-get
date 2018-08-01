@@ -1,6 +1,6 @@
 {
   "name": "@eatsjobs/safe-get",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Simple function to get nested object values",
   "main": "lib/safe-get.js",
   "scripts": {
@@ -29,7 +29,7 @@
   },
   "contributors": [
     {
-      "name": "Pasquale Mangialavori", 
+      "name": "Pasquale Mangialavori",
       "email": "pasquale.mangialavori@gmail.com",
       "url": "https://twitter.com/p_mangialavori"
     }
